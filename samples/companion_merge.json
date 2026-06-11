@@ -1,0 +1,12 @@
+{
+  "state": {
+    "streams": [
+      {"filename": "36-native-pa-app.md",
+       "body": "# Native PA app\n**Status:** exploratory — not started.\n**Complexity:** large (5-8 weeks)\n"},
+      {"filename": "36-native-pa-app-alex.md",
+       "body": "# Native PA app — Alex addendum\n**Blocks on:** Stream 12 must be live first.\n**Companion to:** Stream 20.\n$120,000 ARR opportunity\n"},
+      {"filename": "12-mcp-connector.md",
+       "body": "# MCP connector\n**Status:** Shipped. Connector is in production.\n"}
+    ]
+  }
+}

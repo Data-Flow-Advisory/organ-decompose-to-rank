@@ -1,0 +1,12 @@
+{
+  "state": {
+    "streams": [
+      {"stream_id": "stream_18", "title": "Voice approvals",
+       "body": "# Voice approvals\n**Status:** Scoping.\n**Blocks on:** benefits from Stream 25 for the cleanest path, can be built independently.\nNo numbers stated here.\n"},
+      {"stream_id": "stream_25", "title": "Approvals queue",
+       "body": "# Approvals queue\n**Status:** Scoping.\n**Complexity:** small (hours)\n"},
+      {"stream_id": "stream_40", "title": "Superseded idea",
+       "body": "# Superseded idea\n**Status:** Superseded by Stream 41.\n"}
+    ]
+  }
+}

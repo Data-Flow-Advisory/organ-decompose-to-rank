@@ -1,0 +1,13 @@
+{
+  "state": {
+    "streams": [
+      {"stream_id": "stream_00", "title": "Platform skeleton",
+       "body": "# Platform skeleton\n**Status:** Shipped. The multi-tenant base is live.\n**Complexity:** large (4-6 weeks)\nblocks all revenue until live\n"},
+      {"stream_id": "stream_05", "title": "Discovery interview",
+       "body": "# Discovery interview\n**Status:** Scoping.\n**Blocks on:** Stream 00 — needs the tenant skeleton first.\n**Complexity:** medium (2-3 weeks)\nfirst £50,000 of revenue rides on this\n"},
+      {"stream_id": "stream_06", "title": "Blueprint synthesis",
+       "body": "# Blueprint synthesis\n**Depends on:** Stream 05 must land first.\n**Complexity:** medium (3-5 days)\n"}
+    ],
+    "config": {}
+  }
+}
