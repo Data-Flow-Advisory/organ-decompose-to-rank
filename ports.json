@@ -1,0 +1,22 @@
+{
+  "name": "organ-decompose-to-rank",
+  "kind": "pure_decision_organ",
+  "source": "discovery-engine app/services/decompose_to_rank.py",
+  "entrypoint": "organ.py::decide",
+  "contract": "decide(state, context) -> {output, rationale, self_metric}",
+  "ports": {
+    "in": {
+      "state": "{streams: [{body, stream_id?, filename?, title?}], config?: {working_days_per_week}}",
+      "context": "optional; unused by this organ"
+    },
+    "out": {
+      "output": "{streams: [{id, title, atoms{c4_*}, blocked_by, blocked_soft_by, clear}], count}",
+      "rationale": "str",
+      "self_metric": "{confidence, signals}"
+    }
+  },
+  "_checked": {
+    "corpus_checked": "2026-06-11",
+    "oss_checked": "2026-06-11"
+  }
+}
